@@ -15,7 +15,7 @@ export default function CardScreen() {
     return (
         <SafeAreaView className="flex-1 bg-slate-50" edges={["top"]}>
             <ScrollView>
-                <View className="rounded-3xl border border-cinza bg-white p-5 shadow-sm">
+                <View>
                 <HeaderSection
                     eyebrow="Composição"
                     title="Cards"

@@ -3,8 +3,7 @@ import { Link } from "expo-router"
 import { useState } from "react"
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
 export default function Index(){
-    const logo = "https://image2url.com/r2/default/images/1774539419020-b5b5952f-267d-4954-adf4-0842618b79d2.png"
-    const fundo = "https://image2url.com/r2/default/images/1775658053837-0f708276-b322-40a4-bf44-1f6633ddd4e4.png"
+    const logo = "https://toppng.com/uploads/preview/the-hollow-knight-emblem-11564231220x4twnowex1.png"
     const [email, setEmail,] = useState("")
     const [senha, setSenha,] = useState("")
     const [setor, setSetor,] = useState("")
